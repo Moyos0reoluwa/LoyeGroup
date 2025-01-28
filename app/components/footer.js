@@ -22,10 +22,10 @@ import {
                 professional solutions.
               </p>
               <p className="text-sm sm:text-base text-center md:text-left">
-                123 Business Street, City, Country
+                9, Anifowoshe Street, Ikorodu, Lagos, Nigeria
               </p>
               <p className="text-sm sm:text-base text-center md:text-left">
-                Email: contact@loyegroup.com | Phone: 07050539964
+                Email: contact@loyegroup.com | Phone: +2347050539964
               </p>
             </div>
   

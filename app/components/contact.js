@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="bg-gray-50 py-16" id="contact">
+    <section className="bg-gray-100 py-16" id="contact">
       <div className="container mx-auto text-center px-6">
         {/* Header Section */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-blue-600">
@@ -50,36 +50,17 @@ export default function Contact() {
         </p>
 
         {/* Contact Information */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
           {/* Phone */}
           <div className="flex items-center justify-center bg-white p-6 shadow-md rounded-lg">
             <FaPhone className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mr-4" />
-            <span className="text-sm sm:text-base lg:text-lg text-gray-700">(+234)705-053-9964</span>
+            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">(+234)705-053-9964</span>
           </div>
 
           {/* Email */}
           <div className="flex items-center justify-center bg-white p-6 shadow-md rounded-lg">
             <FaEnvelope className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mr-4" />
-            <span className="text-sm sm:text-base lg:text-lg text-gray-700">contact@loyegroup.com</span>
-          </div>
-
-          {/* Social Media */}
-          <div className="flex justify-center space-x-4 sm:space-x-6">
-            <a href="https://twitter.com/loyegroup" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="w-6 h-6 sm:w-8 sm:h-8 text-black hover:text-blue-700" />
-            </a>
-            <a href="https://www.instagram.com/loyegroup" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8 text-black hover:text-red-400" />
-            </a>
-            <a href="https://www.facebook.com/loyegroup" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="w-6 h-6 sm:w-8 sm:h-8 text-black hover:text-blue-700" />
-            </a>
-            <a href="https://wa.me/07050539964" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp className="w-6 h-6 sm:w-8 sm:h-8 text-black hover:text-green-600" />
-            </a>
-            <a href="https://www.linkedin.com/company/loyegroup" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8 text-black hover:text-blue-700" />
-            </a>
+            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">contact@loyegroup.com</span>
           </div>
         </div>
 
