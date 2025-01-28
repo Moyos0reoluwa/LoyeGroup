@@ -3,8 +3,8 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import "animate.css"; 
-import { FaInstagram, FaWhatsapp, FaLinkedin, FaTwitter } from "react-icons/fa";
+import "animate.css";
+import { FaInstagram, FaWhatsapp, FaLinkedin, FaTwitter, FaHome, FaCogs, FaInfoCircle, FaEnvelope } from "react-icons/fa";
 
 const HamburgerIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 text-white">
@@ -39,11 +39,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -63,9 +59,9 @@ export default function Navbar() {
         {/* Logo */}
         <div className="text-lg sm:text-2xl md:text-3xl font-bold">
           <Link href="/">
-            <Image 
-              src="/loyeLogoWhite.png" 
-              alt="Loye Group" 
+            <Image
+              src="/loyeLogoWhite.png"
+              alt="Loye Group"
               width={70}
               height={20}
               className="object-contain"
@@ -90,7 +86,7 @@ export default function Navbar() {
             ref={menuRef}
             className={`${
               isOpen ? "translate-x-0" : "translate-x-full"
-            } fixed top-0 right-0 w-64 h-full bg-green-500 text-white transform transition-all duration-300 ease-in-out z-50 animate__animated ${
+            } fixed top-0 right-0 w-2/3 h-full bg-green-500 text-white transform transition-all duration-300 ease-in-out z-50 animate__animated ${
               isOpen ? "animate__slideInRight" : "animate__slideOutRight"
             }`}
           >
@@ -101,47 +97,52 @@ export default function Navbar() {
             >
               <CloseIcon />
             </button>
-            <ul className="space-y-6 py-8 px-4 text-center">
-              <li>
+            <ul className="space-y-0 py-16 px-4 text-center">
+              <li className="border-b border-white last:border-b-0">
                 <Link
                   href="/"
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
+                  className="py-4 px-4 text-lg sm:text-xl md:text-2xl flex items-center justify-center text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
-                  Home
+                  <FaHome className="mr-3" /> Home
                 </Link>
               </li>
-              <li>
+              <li className="border-b border-white last:border-b-0">
                 <Link
-                  href="#services" 
+                  href="#services"
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
+                  className="py-4 px-4 text-lg sm:text-xl md:text-2xl flex items-center justify-center text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
-                  Services
+                  <FaCogs className="mr-3" /> Services
                 </Link>
               </li>
-              <li>
+              <li className="border-b border-white last:border-b-0">
                 <Link
-                  href="#about"  
+                  href="#about"
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
+                  className="py-4 px-4 text-lg sm:text-xl md:text-2xl flex items-center justify-center text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
-                  About Us
+                  <FaInfoCircle className="mr-3" /> About Us
                 </Link>
               </li>
-              <li>
+              <li className="border-b border-white last:border-b-0">
                 <Link
                   href="#contact"
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
+                  className="py-4 px-4 text-lg sm:text-xl md:text-2xl flex items-center justify-center text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
-                  Contact
+                  <FaEnvelope className="mr-3" /> Contact
                 </Link>
               </li>
             </ul>
 
+            {/* Slogan */}
+            <p className="text-[16px] sm:text-[22px] md:text-[25px] font-medium italic animate__animated animate__fadeInUp pt-10 px-5">
+              Where Tech and Finance Meet...
+            </p>
+
             {/* Social Media Icons */}
-            <div className="mt-10 flex justify-center space-x-6">
+            <div className="mt-32 flex justify-center space-x-6">
               <Link href="https://www.instagram.com" target="_blank" className="hover:text-pink-500 transition-colors duration-200">
                 <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
@@ -155,11 +156,6 @@ export default function Navbar() {
                 <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
             </div>
-
-            {/* Slogan */}
-            <p className="text-[19px] sm:text[22px] md:text[25px] font-medium animate__animated animate__fadeInUp pt-32 px-5">
-            Where Tech and Finance Meet...
-            </p>
           </div>
         </div>
 
@@ -176,7 +172,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#services" 
+                href="#services"
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
                 Services
@@ -184,7 +180,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#about" 
+                href="#about"
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
                 About Us
