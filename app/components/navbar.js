@@ -2,8 +2,10 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import "animate.css"; 
+import { FaInstagram, FaWhatsapp, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-// Custom SVG Icons (responsive sizes)
 const HamburgerIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 text-white">
     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -60,7 +62,15 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <div className="text-lg sm:text-2xl md:text-3xl font-bold">
-          <Link href="/">Loye Group</Link>
+          <Link href="/">
+            <Image 
+              src="/loyeLogoWhite.png" 
+              alt="Loye Group" 
+              width={70}
+              height={20}
+              className="object-contain"
+            />
+          </Link>
         </div>
 
         {/* Hamburger Menu (Mobile) */}
@@ -80,7 +90,9 @@ export default function Navbar() {
             ref={menuRef}
             className={`${
               isOpen ? "translate-x-0" : "translate-x-full"
-            } fixed top-0 right-0 w-64 h-full bg-blue-600 text-white transform transition-all duration-300 ease-in-out z-50`}
+            } fixed top-0 right-0 w-64 h-full bg-blue-600 text-white transform transition-all duration-300 ease-in-out z-50 animate__animated ${
+              isOpen ? "animate__slideInRight" : "animate__slideOutRight"
+            }`}
           >
             <button
               onClick={() => setIsOpen(false)}
@@ -127,6 +139,22 @@ export default function Navbar() {
                 </Link>
               </li>
             </ul>
+
+            {/* Social Media Icons */}
+            <div className="mt-10 flex justify-center space-x-6">
+              <Link href="https://www.instagram.com" target="_blank" className="hover:text-pink-500 transition-colors duration-200">
+                <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+              </Link>
+              <Link href="https://wa.me" target="_blank" className="hover:text-green-500 transition-colors duration-200">
+                <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+              </Link>
+              <Link href="https://www.linkedin.com" target="_blank" className="hover:text-blue-500 transition-colors duration-200">
+                <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+              </Link>
+              <Link href="https://twitter.com" target="_blank" className="hover:text-blue-400 transition-colors duration-200">
+                <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+              </Link>
+            </div>
           </div>
         </div>
 
