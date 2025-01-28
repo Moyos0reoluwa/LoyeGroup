@@ -42,7 +42,7 @@ export default function Contact() {
     <section className="bg-gray-100 py-16" id="contact">
       <div className="container mx-auto text-center px-6">
         {/* Header Section */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-blue-600">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase text-green-500 mb-6">
           Contact Us
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-12">
@@ -66,7 +66,7 @@ export default function Contact() {
 
         {/* Contact Form */}
         <div className="bg-white p-6 sm:p-8 shadow-md rounded-lg max-w-xl mx-auto">
-          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-6">
+          <h3 className="text-xl sm:text-2xl font-semibold text-green-500 mb-6">
             Send us a Message
           </h3>
           <form

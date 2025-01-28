@@ -6,10 +6,10 @@ export default function About() {
     <section className="bg-gray-50 py-16" id="about">
       <div className="container mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-blue-700">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 text-green-500">
           About Loye Group
         </h2>
-        <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-12">
+        <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
         At Loye Group, we deliver innovative IT solutions, expert software engineering, 
         and comprehensive services in accounting, auditing, marketing, and financial analysis. 
         Our team leverages advanced technologies and industry best practices to create 

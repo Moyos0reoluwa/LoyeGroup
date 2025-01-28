@@ -74,7 +74,7 @@ export default function Testimonial() {
     <div className="py-16 bg-gray-100">
       {/* Heading */}
       <div className="text-center mb-10">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase text-blue-700 mb-6">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase text-green-500 mb-6">
         Our Client Testimonials
         </h2>
       </div>
@@ -97,7 +97,7 @@ export default function Testimonial() {
         {/* Navigation Buttons */}
         <button
           onClick={handlePrev}
-          className="absolute top-1/2 left-1 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-md hover:bg-gray-700 transition"
+          className="absolute top-1/2 left-1 transform -translate-y-1/2 bg-blue-600 text-white p-3 rounded-full shadow-md hover:bg-gray-700 transition"
           aria-label="Previous testimonial"
           disabled={isAnimating} 
         >
@@ -105,7 +105,7 @@ export default function Testimonial() {
         </button>
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-1 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-md hover:bg-gray-700 transition"
+          className="absolute top-1/2 right-1 transform -translate-y-1/2 bg-blue-600 text-white p-3 rounded-full shadow-md hover:bg-gray-700 transition"
           aria-label="Next testimonial"
           disabled={isAnimating} 
         >

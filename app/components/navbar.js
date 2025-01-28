@@ -55,7 +55,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`bg-blue-600 text-white fixed top-0 w-full z-50 transition-all duration-300 ease-in-out ${
+      className={`bg-green-500 text-white fixed top-0 w-full z-50 transition-all duration-300 ease-in-out ${
         isScrolled ? "bg-opacity-100" : "bg-opacity-0"
       }`}
     >
@@ -90,7 +90,7 @@ export default function Navbar() {
             ref={menuRef}
             className={`${
               isOpen ? "translate-x-0" : "translate-x-full"
-            } fixed top-0 right-0 w-64 h-full bg-blue-600 text-white transform transition-all duration-300 ease-in-out z-50 animate__animated ${
+            } fixed top-0 right-0 w-64 h-full bg-green-500 text-white transform transition-all duration-300 ease-in-out z-50 animate__animated ${
               isOpen ? "animate__slideInRight" : "animate__slideOutRight"
             }`}
           >
@@ -155,6 +155,11 @@ export default function Navbar() {
                 <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
             </div>
+
+            {/* Slogan */}
+            <p className="text-[19px] sm:text[22px] md:text[25px] font-medium animate__animated animate__fadeInUp pt-32 px-5">
+            Where Tech and Finance Meet...
+            </p>
           </div>
         </div>
 
@@ -171,7 +176,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/services" 
+                href="#services" 
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
                 Services
@@ -179,7 +184,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/about" 
+                href="#about" 
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
                 About Us
@@ -187,7 +192,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="#contact"
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
                 Contact

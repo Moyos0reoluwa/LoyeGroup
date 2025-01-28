@@ -14,7 +14,7 @@ import {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
-              <h4 className="text-2xl sm:text-3xl font-semibold mb-4 text-blue-500 text-center md:text-left">
+              <h4 className="text-2xl sm:text-3xl font-semibold mb-4 text-green-500 text-center md:text-left">
                 Loye Group
               </h4>
               <p className="text-base sm:text-lg mb-4 text-center md:text-left">
@@ -30,13 +30,13 @@ import {
             </div>
   
             {/* Quick Links */}
-            <div className="flex flex-col items-center md:items-start">
+            <div className="flex flex-col items-center md:items-start px-24">
               <h5 className="font-semibold text-lg sm:text-xl mb-4">Quick Links</h5>
               <ul>
                 <li>
                   <a
                     href="/about"
-                    className="hover:text-blue-500 text-sm sm:text-base block"
+                    className="hover:text-blue-500 text-sm sm:text-base block mb-1"
                   >
                     About Us
                   </a>
@@ -44,7 +44,7 @@ import {
                 <li>
                   <a
                     href="/services"
-                    className="hover:text-blue-500 text-sm sm:text-base block"
+                    className="hover:text-blue-500 text-sm sm:text-base block mb-1"
                   >
                     Services
                   </a>
@@ -69,42 +69,42 @@ import {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white hover:text-blue-400" />
+                  <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-400" />
                 </a>
                 <a
                   href="https://www.instagram.com/loyegroup"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white hover:text-pink-500" />
+                  <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-pink-500" />
                 </a>
                 <a
                   href="https://www.facebook.com/loyegroup"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white hover:text-blue-600" />
+                  <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-600" />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/loyegroup"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white hover:text-blue-700" />
+                  <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-700" />
                 </a>
                 <a
                   href="https://wa.me/07050539964"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white hover:text-green-500" />
+                  <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-green-500" />
                 </a>
               </div>
             </div>
           </div>
   
           {/* Copyright */}
-          <div className="mt-4 text-xs sm:text-sm text-center">
+          <div className="mt-7 text-xs sm:text-sm text-center">
             <p>© {new Date().getFullYear()} Loye Group. All Rights Reserved.</p>
           </div>
         </div>

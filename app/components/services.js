@@ -15,7 +15,7 @@ export default function Services() {
     <section className="bg-gray-700 py-16" id="services">
       <div className="container mx-auto px-6 text-center animate__animated animate__fadeIn">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-blue-700 mb-6">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase text-green-500 mb-6">
           Our Services
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-white max-w-3xl mx-auto mb-12" style={{ fontSize: '18px' }}>
