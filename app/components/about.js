@@ -10,8 +10,13 @@ export default function About() {
           About Loye Group
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-12">
-          At Loye Group, we are passionate about providing top-tier IT services, innovative software engineering solutions, and professional expertise in accounting, auditing, marketing, and financial analysis. 
-          We deliver transformative solutions that empower businesses to thrive in today’s dynamic landscape.
+        At Loye Group, we deliver innovative IT solutions, expert software engineering, 
+        and comprehensive services in accounting, auditing, marketing, and financial analysis. 
+        Our team leverages advanced technologies and industry best practices to create 
+        tailored solutions that drive business growth. We are committed to empowering 
+        businesses with the tools and insights needed to succeed in today’s dynamic 
+        market. Whether optimizing operations or enhancing financial strategies, 
+        Loye Group is your trusted partner for transformative success.
         </p>
 
         {/* Mission and Services */}
@@ -42,10 +47,10 @@ export default function About() {
 
         {/* Why Choose Us */}
         <div className="mt-16">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-blue-600 mb-6">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-blue-600 mb-6" style={{ fontSize: '21px' }}>
             Why Choose Us?
           </h3>
-          <p className="text-sm sm:text-base lg:text-lg text-gray-700 max-w-4xl mx-auto mb-8">
+          <p className="text-sm sm:text-base lg:text-lg text-gray-700 max-w-4xl mx-auto mb-8" style={{ fontSize: '17px' }}>
             At Loye Group, we prioritize understanding your unique business needs to craft tailored solutions. Our team of skilled professionals combines technical expertise with industry insights to deliver exceptional results, making us a trusted partner for your growth journey.
           </p>
           <div className="text-center">

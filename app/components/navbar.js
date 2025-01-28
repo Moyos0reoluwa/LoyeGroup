@@ -113,20 +113,20 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="#about"
-                  onClick={() => setIsOpen(false)}
-                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#services"
+                  href="#services" 
                   onClick={() => setIsOpen(false)}
                   className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
                   Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#about"  
+                  onClick={() => setIsOpen(false)}
+                  className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
+                >
+                  About Us
                 </Link>
               </li>
               <li>
@@ -171,18 +171,18 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/services" 
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
-                About Us
+                Services
               </Link>
             </li>
             <li>
               <Link
-                href="/services"
+                href="/about" 
                 className="block py-2 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg"
               >
-                Services
+                About Us
               </Link>
             </li>
             <li>
