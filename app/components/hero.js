@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero.jpeg"
+          src="/heropage.png"
           alt="Hero Image"
           layout="fill"
           objectFit="cover"
@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
 
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
 
       {/* Content */}
       <div className="relative flex-grow flex flex-col justify-between text-center text-white px-4">

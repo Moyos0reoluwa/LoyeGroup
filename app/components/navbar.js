@@ -53,8 +53,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`bg-blue-600 text-white shadow-md fixed top-0 w-full z-50 transition-all duration-300 ease-in-out ${
-        isScrolled ? "bg-opacity-90" : "bg-opacity-0"
+      className={`bg-blue-600 text-white fixed top-0 w-full z-50 transition-all duration-300 ease-in-out ${
+        isScrolled ? "bg-opacity-100" : "bg-opacity-0"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
@@ -80,7 +80,7 @@ export default function Navbar() {
             ref={menuRef}
             className={`${
               isOpen ? "translate-x-0" : "translate-x-full"
-            } fixed top-0 right-0 w-64 h-full bg-blue-600/90 text-white transform transition-all duration-300 ease-in-out z-10`}
+            } fixed top-0 right-0 w-64 h-full bg-blue-600 text-white transform transition-all duration-300 ease-in-out z-50`}
           >
             <button
               onClick={() => setIsOpen(false)}
@@ -93,6 +93,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/"
+                  onClick={() => setIsOpen(false)}
                   className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
                   Home
@@ -101,6 +102,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="#about"
+                  onClick={() => setIsOpen(false)}
                   className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
                   About Us
@@ -109,6 +111,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="#services"
+                  onClick={() => setIsOpen(false)}
                   className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
                   Services
@@ -117,6 +120,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="#contact"
+                  onClick={() => setIsOpen(false)}
                   className="block py-3 px-4 text-lg sm:text-xl md:text-2xl text-white hover:bg-blue-500 rounded-lg transition-all duration-200"
                 >
                   Contact
