@@ -97,7 +97,7 @@ export default function Navbar() {
             >
               <CloseIcon />
             </button>
-            <ul className="space-y-0 py-16 px-4 text-center">
+            <ul className="space-y-0 py-20 px-4 text-center">
               <li className="border-b border-white last:border-b-0">
                 <Link
                   href="/"
@@ -136,11 +136,6 @@ export default function Navbar() {
               </li>
             </ul>
 
-            {/* Slogan */}
-            <p className="text-[16px] sm:text-[22px] md:text-[25px] font-medium italic animate__animated animate__fadeInUp pt-10 px-5">
-              Where Tech and Finance Meet...
-            </p>
-
             {/* Social Media Icons */}
             <div className="mt-32 flex justify-center space-x-6">
               <Link href="https://www.instagram.com" target="_blank" className="hover:text-pink-500 transition-colors duration-200">
@@ -156,6 +151,13 @@ export default function Navbar() {
                 <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
             </div>
+
+            
+            {/* Slogan */}
+            <p className="text-[16px] sm:text-[22px] md:text-[25px] font-medium italic animate__animated animate__fadeInUp pt-36 px-3">
+              Where Tech and Finance Meet...
+            </p>
+
           </div>
         </div>
 
