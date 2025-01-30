@@ -138,7 +138,7 @@ export default function Navbar() {
 
             {/* Social Media Icons */}
             <div className="mt-32 flex justify-center space-x-6">
-              <Link href="https://www.instagram.com" target="_blank" className="hover:text-pink-500 transition-colors duration-200">
+              <Link href="https://www.instagram.com/loyegroup?igsh=cnMwY2YzZG90dnlt " target="_blank" className="hover:text-pink-500 transition-colors duration-200">
                 <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
               <Link href="https://wa.me" target="_blank" className="hover:text-green-500 transition-colors duration-200">

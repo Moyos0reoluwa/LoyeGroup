@@ -13,7 +13,7 @@ export default function Hero() {
           src="/heropage.png"
           alt="Hero Image"
           layout="fill"
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           priority
         />
       </div>

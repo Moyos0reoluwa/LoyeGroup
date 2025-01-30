@@ -72,7 +72,7 @@ import {
                   <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-400" />
                 </a>
                 <a
-                  href="https://www.instagram.com/loyegroup"
+                  href="https://www.instagram.com/loyegroup?igsh=cnMwY2YzZG90dnlt"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
