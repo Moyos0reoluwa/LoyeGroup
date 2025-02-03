@@ -144,7 +144,7 @@ export default function Navbar() {
               <Link href="https://wa.me" target="_blank" className="hover:text-green-500 transition-colors duration-200">
                 <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
-              <Link href="https://www.linkedin.com" target="_blank" className="hover:text-blue-500 transition-colors duration-200">
+              <Link href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="hover:text-blue-500 transition-colors duration-200">
                 <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
               <Link href="https://twitter.com" target="_blank" className="hover:text-blue-400 transition-colors duration-200">
