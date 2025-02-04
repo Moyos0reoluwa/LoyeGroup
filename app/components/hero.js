@@ -12,7 +12,7 @@ export default function Hero() {
         <Image
           src="/heropage.png"
           alt="Hero Image"
-          layout="fill"
+          fill
           style={{ objectFit: 'cover' }}
           priority
         />
@@ -33,7 +33,7 @@ export default function Hero() {
             <span className="text-green-500">Finance</span> Meet
           </p>
           <p className="text-lg sm:text-xl md:text-2xl  mt-10 mb-10 leading-relaxed">
-            Offering innovative design, cutting-edge software engineering, and
+            Offering innovative design, cutting-edge software development, and
             professional services including financial analysis, audit,
             accounting, marketing, and IT solutions.
           </p>

@@ -10,7 +10,7 @@ export default function About() {
           About Loye Group
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto mb-12 text-justify">
-        At Loye Group, we deliver innovative IT solutions, expert software engineering, 
+        At Loye Group, we deliver innovative IT solutions, expert software design and development, 
         and comprehensive services in accounting, auditing, marketing, and financial analysis. 
         Our team leverages advanced technologies and industry best practices to create 
         tailored solutions that drive business growth. We are committed to empowering 
@@ -40,7 +40,7 @@ export default function About() {
               What We Do
             </h3>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600">
-              From IT infrastructure and custom software development to expert accounting and financial analysis, we provide a comprehensive range of services to address diverse business challenges and deliver innovative solutions.
+              From IT infrastructure and custom software development and design to expert accounting and financial analysis, we provide a comprehensive range of services to address diverse business challenges and deliver innovative solutions.
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function About() {
           </p>
           <div className="text-center">
             <Link
-              href="/services"
+              href="#services"
               className="inline-block px-8 py-3 bg-blue-600 text-white text-base sm:text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all duration-300"
             >
               Discover Our Services

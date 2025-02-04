@@ -5,6 +5,8 @@ import {
   CurrencyDollarIcon,
   ShieldCheckIcon,
   MegaphoneIcon,
+  DevicePhoneMobileIcon,
+  PaintBrushIcon,
   CalculatorIcon,
 } from "@heroicons/react/24/outline";
 import { FaArrowRight } from "react-icons/fa";  // Importing the arrow icon from react-icons
@@ -24,7 +26,7 @@ export default function Services() {
         </p>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {/* IT Services */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
             <CloudIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
@@ -45,7 +47,7 @@ export default function Services() {
 
           {/* UI/UX Design */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
-            <CurrencyDollarIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
+            <DevicePhoneMobileIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
             <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">UI/UX Design</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
             Intuitive interfaces, crafted for seamless user experiences, elevating your digital presence to new heights.
@@ -64,7 +66,7 @@ export default function Services() {
           {/* Software Engineering */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
             <CodeBracketIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
-            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Software Engineering</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Software Development</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
               Our custom software solutions are designed to meet your unique business needs, from development to deployment.
             </p>
@@ -81,7 +83,7 @@ export default function Services() {
 
           {/* Graphics Design */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
-            <CurrencyDollarIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
+            <PaintBrushIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
             <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Graphics Design</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
             Creative visuals, tailored for your brand’s unique identity, to make you stand out.
@@ -102,7 +104,7 @@ export default function Services() {
             <CurrencyDollarIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
             <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Accounting & Financial Services</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
-              We provide expert accounting, auditing, and financial analysis services to help businesses make informed decisions.
+            We meticulously prepare comprehensive and unbiased financial statements to empower businesses with the insights needed to make informed decisions.
             </p>
             <div className="flex justify-center mt-4">
               <Link
@@ -173,7 +175,7 @@ export default function Services() {
         {/* CTA */}
         <div className="mt-12">
           <Link
-            href="/contact"
+            href="#contact"
             className="inline-block px-8 py-3 bg-blue-600 text-white text-sm sm:text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all"
           >
             Get in Touch with Us
