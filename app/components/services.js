@@ -34,7 +34,25 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/it"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
+              >
+                Learn More
+                <FaArrowRight className="ml-2 text-blue-600" />
+              </Link>
+            </div>
+          </div>
+
+          {/* UI/UX Design */}
+          <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
+            <CurrencyDollarIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
+            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">UI/UX Design</h3>
+            <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
+            Intuitive interfaces, crafted for seamless user experiences, elevating your digital presence to new heights.
+            </p>
+            <div className="flex justify-center mt-4">
+              <Link
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
@@ -52,7 +70,25 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/software-engineering"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
+              >
+                Learn More
+                <FaArrowRight className="ml-2 text-blue-600" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Graphics Design */}
+          <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
+            <CurrencyDollarIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
+            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Graphics Design</h3>
+            <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
+            Creative visuals, tailored for your brand’s unique identity, to make you stand out.
+            </p>
+            <div className="flex justify-center mt-4">
+              <Link
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
@@ -70,7 +106,7 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/accounting"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
@@ -88,7 +124,7 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/audit"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
@@ -106,7 +142,7 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/marketing"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
@@ -124,7 +160,7 @@ export default function Services() {
             </p>
             <div className="flex justify-center mt-4">
               <Link
-                href="/services/financial-analysis"
+                href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-all"
               >
                 Learn More
