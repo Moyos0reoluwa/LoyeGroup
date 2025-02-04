@@ -86,7 +86,7 @@ import {
                   <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-600" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/loyegroup"
+                  href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
