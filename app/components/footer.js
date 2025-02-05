@@ -35,7 +35,7 @@ import {
               <ul>
                 <li>
                   <a
-                    href="/about"
+                    href="#about"
                     className="hover:text-blue-500 text-sm sm:text-base block mb-1"
                   >
                     About Us
@@ -43,7 +43,7 @@ import {
                 </li>
                 <li>
                   <a
-                    href="/services"
+                    href="#services"
                     className="hover:text-blue-500 text-sm sm:text-base block mb-1"
                   >
                     Services
@@ -51,7 +51,7 @@ import {
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href="#contact"
                     className="hover:text-blue-500 text-sm sm:text-base block"
                   >
                     Contact Us
