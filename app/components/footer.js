@@ -25,7 +25,7 @@ import {
                 9, Anifowoshe Street, Ikorodu, Lagos, Nigeria
               </p>
               <p className="text-sm sm:text-base text-center md:text-left">
-                Email: contact@loyegroup.com | Phone: +2347050539964
+                Email: theloyegroup@gmail.com | Phone: (+234)707-568-3672
               </p>
             </div>
   
@@ -65,7 +65,7 @@ import {
               <h5 className="font-semibold text-lg sm:text-xl mb-4">Follow Us</h5>
               <div className="flex justify-center space-x-4">
                 <a
-                  href="https://twitter.com/loyegroup"
+                  href="https://x.com/LoyeGroup?t=cSUTLC20EKFCWqCPxpHWZA&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,7 +79,7 @@ import {
                   <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-pink-500" />
                 </a>
                 <a
-                  href="https://www.facebook.com/loyegroup"
+                  href="https://www.facebook.com/share/1HsMV8fThh/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -93,7 +93,7 @@ import {
                   <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white hover:text-blue-700" />
                 </a>
                 <a
-                  href="https://wa.me/07050539964"
+                  href="https://wa.me/2347075683672"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

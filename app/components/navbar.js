@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import "animate.css";
-import { FaInstagram, FaWhatsapp, FaLinkedin, FaTwitter, FaHome, FaCogs, FaInfoCircle, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaFacebook, FaLinkedin, FaTwitter, FaHome, FaCogs, FaInfoCircle, FaEnvelope } from "react-icons/fa";
 
 const HamburgerIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 text-white">
@@ -141,14 +141,17 @@ export default function Navbar() {
               <Link href="https://www.instagram.com/loyegroup?igsh=cnMwY2YzZG90dnlt " target="_blank" className="hover:text-pink-500 transition-colors duration-200">
                 <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
-              <Link href="https://wa.me" target="_blank" className="hover:text-green-500 transition-colors duration-200">
+              <Link href="https://wa.me/2347075683672" target="_blank" className="hover:text-green-500 transition-colors duration-200">
                 <FaWhatsapp className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
               <Link href="https://www.linkedin.com/in/loye-group-55911634a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="hover:text-blue-500 transition-colors duration-200">
                 <FaLinkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
-              <Link href="https://twitter.com" target="_blank" className="hover:text-blue-400 transition-colors duration-200">
+              <Link href="https://x.com/LoyeGroup?t=cSUTLC20EKFCWqCPxpHWZA&s=09" target="_blank" className="hover:text-blue-400 transition-colors duration-200">
                 <FaTwitter className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+              </Link>
+              <Link href="https://www.facebook.com/share/1HsMV8fThh/" target="_blank" className="hover:text-blue-500 transition-colors duration-200">
+                <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
               </Link>
             </div>
 

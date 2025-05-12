@@ -153,12 +153,12 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Financial Analysis */}
+          {/* Currency Exchange */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
             <CalculatorIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
-            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Financial Analysis</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Currency Exchange</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
-              We provide in-depth financial analysis and insights to help businesses make strategic financial decisions.
+            We provide fast, secure foreign currency and crypto exchange services with competitive rates and expert support for smooth transactions.
             </p>
             <div className="flex justify-center mt-4">
               <Link

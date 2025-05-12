@@ -54,13 +54,13 @@ export default function Contact() {
           {/* Phone */}
           <div className="flex items-center justify-center bg-white p-6 shadow-md rounded-lg">
             <FaPhone className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mr-4" />
-            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">(+234)705-053-9964</span>
+            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">(+234)707-568-3672</span>
           </div>
 
           {/* Email */}
           <div className="flex items-center justify-center bg-white p-6 shadow-md rounded-lg">
             <FaEnvelope className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 mr-4" />
-            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">contact@loyegroup.com</span>
+            <span className="text-sm sm:text-base lg:text-lg text-gray-700 font-sans">theloyegroup@gmail.com</span>
           </div>
         </div>
 
