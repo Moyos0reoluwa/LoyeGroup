@@ -8,6 +8,7 @@ import {
   DevicePhoneMobileIcon,
   PaintBrushIcon,
   CalculatorIcon,
+  CreditCardIcon,
 } from "@heroicons/react/24/outline";
 import { FaArrowRight } from "react-icons/fa";  // Importing the arrow icon from react-icons
 import 'animate.css'; // Importing Animate.css
@@ -155,7 +156,7 @@ export default function Services() {
 
           {/* Currency Exchange */}
           <div className="p-8 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300">
-            <CalculatorIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
+            <CreditCardIcon className="w-12 h-12 text-blue-600 mb-4 mx-auto" />
             <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Currency Exchange</h3>
             <p className="text-base text-gray-600 mb-6" style={{ fontSize: '18px' }}>
             We provide fast, secure foreign currency and crypto exchange services with competitive rates and expert support for smooth transactions.
